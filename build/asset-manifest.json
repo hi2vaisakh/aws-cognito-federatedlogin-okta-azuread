@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1b05096.chunk.css",
+    "main.js": "/static/js/main.51604314.chunk.js",
+    "main.js.map": "/static/js/main.51604314.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.34d4886c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.34d4886c.js.map",
+    "static/css/2.50db64b2.chunk.css": "/static/css/2.50db64b2.chunk.css",
+    "static/js/2.f58bea54.chunk.js": "/static/js/2.f58bea54.chunk.js",
+    "static/js/2.f58bea54.chunk.js.map": "/static/js/2.f58bea54.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ed750b9280b75ff7708b069110ba8405.js": "/precache-manifest.ed750b9280b75ff7708b069110ba8405.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.50db64b2.chunk.css.map": "/static/css/2.50db64b2.chunk.css.map",
+    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.f58bea54.chunk.js.LICENSE.txt": "/static/js/2.f58bea54.chunk.js.LICENSE.txt",
+    "static/media/unicorngym.png": "/static/media/unicorngym.869dd411.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34d4886c.js",
+    "static/css/2.50db64b2.chunk.css",
+    "static/js/2.f58bea54.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.51604314.chunk.js"
+  ]
+}

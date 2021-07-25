@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-unicorngymdemo-dev-151300-authRole",
+      "UnauthRoleArn": "arn:aws:iam::738317653687:role/amplify-unicorngymdemo-dev-151300-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::738317653687:role/amplify-unicorngymdemo-dev-151300-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-unicorngymdemo-dev-151300-deployment",
+      "UnauthRoleName": "amplify-unicorngymdemo-dev-151300-unauthRole",
+      "StackName": "amplify-unicorngymdemo-dev-151300",
+      "StackId": "arn:aws:cloudformation:us-east-1:738317653687:stack/amplify-unicorngymdemo-dev-151300/bb14dc50-e3be-11eb-9746-0eecabf51e5d",
+      "AmplifyAppId": "d1we7at3yfgko"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1we7at3yfgko",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

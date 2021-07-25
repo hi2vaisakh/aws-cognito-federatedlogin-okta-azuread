@@ -1,0 +1,31 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-unicorngymdemo-dev-151300-authRole",
+      "UnauthRoleArn": "arn:aws:iam::738317653687:role/amplify-unicorngymdemo-dev-151300-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::738317653687:role/amplify-unicorngymdemo-dev-151300-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-unicorngymdemo-dev-151300-deployment",
+      "UnauthRoleName": "amplify-unicorngymdemo-dev-151300-unauthRole",
+      "StackName": "amplify-unicorngymdemo-dev-151300",
+      "StackId": "arn:aws:cloudformation:us-east-1:738317653687:stack/amplify-unicorngymdemo-dev-151300/bb14dc50-e3be-11eb-9746-0eecabf51e5d",
+      "AmplifyAppId": "d1we7at3yfgko"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-unicorngymdemo-dev-151300-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2021-07-14T15:59:00.735Z",
+      "output": {},
+      "lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
+    }
+  },
+  "auth": {},
+  "api": {}
+}
