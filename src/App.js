@@ -12,15 +12,15 @@ import "./App.css";
 
 const config = {
   Auth: {
-    region: "ypur region",
-    userPoolId: "us-east-xxxxxxxxxx",
-    userPoolWebClientId: "xxxxxxxxx",
-    identityPoolId: "us-east-1:xxxxxxxxxxxxxxxxxxx",
+    region: "us-east-1",
+    userPoolId: "us-east-1_JJTUjyI1S",
+    userPoolWebClientId: "284o5rp9tab3g377tm303q6hi7",
+    identityPoolId: "us-east-1:2daea76b-892f-4878-9580-4a93174e64da",
     oauth: {
-      domain: "cognito domain",
+      domain: "azureadunicorngymdemo.auth.us-east-1.amazoncognito.com",
       scope: ["email", "openid", "aws.cognito.signin.user.admin", "profile"],
-      redirectSignIn: "redirect url",
-      redirectSignOut: "signout url",
+      redirectSignIn: "https://dev.d1we7at3yfgko.amplifyapp.com/",
+      redirectSignOut: "https://dev.d1we7at3yfgko.amplifyapp.com/",
       responseType: "code"
     }
   } ,
@@ -28,7 +28,7 @@ const config = {
     endpoints: [
       {
         name: "tokenvalidator",
-        endpoint: "api gateway endpoint"
+        endpoint: "https://vs08pbf9rk.execute-api.us-east-1.amazonaws.com"
       }
     ]
   } 
@@ -39,6 +39,8 @@ API.configure(config);
 
 const federatedIdName =
   "Okta";
+  const federatedAzureIdName =
+  "azureadunicorngymdemo";
 
 function App() {
   const [token, setToken] = useState(null);
@@ -87,7 +89,7 @@ function App() {
         {token ? (
           <MainRequest token={token} user={user}/>
         ) : (
-          <FederatedSignIn federatedIdName={federatedIdName} />
+          <FederatedSignIn federatedIdName={federatedIdName} federatedAzureIdName={federatedAzureIdName} />
         )}
       </Container>
     </Fragment>

@@ -75,7 +75,26 @@ function FederatedSignIn(props) {
               <Col sm={3}> </Col>
             </Row>
             <Card.Text style={{textAlign: "center"}}>
-              No Account? <a style={{color: "blue"}}>Sinup Here</a>
+              <a style={{color: "blue"}}>or Sigin in with below Federated Identities</a>
+            </Card.Text>
+            <Row>
+              <Col sm={3}></Col>
+              <Col sm={6}>
+                {" "}
+                <Button
+                  block
+                  variant="info"
+                  onClick={() =>
+                    Auth.federatedSignIn({provider: props.federatedIdName})
+                  }
+                >
+                  Sign In with Okta
+                </Button>
+              </Col>
+              <Col sm={3}> </Col>
+            </Row>
+            <Card.Text style={{textAlign: "center"}}>
+              <a style={{color: "blue"}}></a>
             </Card.Text>
             <Row>
               <Col sm={3}></Col>
@@ -85,10 +104,10 @@ function FederatedSignIn(props) {
                   block
                   variant="primary"
                   onClick={() =>
-                    Auth.federatedSignIn({provider: props.federatedIdName})
+                    Auth.federatedSignIn({provider: props.federatedAzureIdName})
                   }
                 >
-                  Sign In with Okta
+                  Sign In with Azure AD
                 </Button>
               </Col>
               <Col sm={3}> </Col>
